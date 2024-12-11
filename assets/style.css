@@ -1,0 +1,75 @@
+/* Main container */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.main-container {
+    background-color: #05c0f0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gotham', 'Raleway', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/* header */
+.header {
+    background-color: #021736;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    gap: 20px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#source {
+    font-size: x-small;
+}
+
+
+/* Body */
+.body {
+    flex: 1;
+    background-color: #fff;
+    color: #05c0f0;
+    padding: 20px;
+}
+.tabs {
+    background-color: #05c0f0;
+}
+
+/* Tab properties */
+.center-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#line-chart {
+    padding: 20px;
+}
+
+#bar-chart {
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color:#021736;
+    color: #fff;
+    padding: 20px; 
+}
+
+/* Alternative formatting */
+.align-inline {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}

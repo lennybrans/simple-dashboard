@@ -1,0 +1,3 @@
+use global .gitignore locally to always ignore the latter 
+.venv 
+__pycache__
