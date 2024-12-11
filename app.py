@@ -28,13 +28,13 @@ df = pd.DataFrame(df_dict, index)
 ############################# GRAPHS ##########################################
 def create_line(selection):
     return px.line(df, x=df.index, y=df[selection],
-                   title='Fig 2: Representation of random numbers', 
+                   title='Fig 1: Representation of random numbers by Line', 
                    labels={"index": "Sample", selection: "Value"}
                    )
 
 def create_bar(selection):
     return px.bar(df, x=df.index, y=df[selection], 
-                  title='Fig 2: Representation of random numbers', 
+                  title='Fig 2: Representation of random numbers by Bar', 
                   labels={"index": "Sample", selection: "Value"}
                   )
 
@@ -99,4 +99,4 @@ def update_create_bar(value):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
